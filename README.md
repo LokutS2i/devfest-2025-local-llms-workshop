@@ -70,3 +70,13 @@ python3 02_rag_lcel/query.py [--interactive] [--question "YOUR_QUESTION"] [--thi
 - `--interactive`: Run in interactive mode (ask multiple questions)
 - `--question "YOUR_QUESTION"`: Question to ask (default: "Who is the CEO of DevFest Corp?")
 - `--thinking`: Use qwen3:8b thinking model to show reasoning process
+
+### 03_langgraph_react/agent.py
+```bash
+python3 03_langgraph_react/agent.py [--interactive] [--question "YOUR_QUESTION"] [--thinking]
+```
+- `--interactive`: Run in interactive mode (ask multiple questions)
+- `--question "YOUR_QUESTION"`: Question to ask (default: "Who is the CEO of DevFest Corp?")
+- `--thinking`: Use qwen3:8b thinking model to show reasoning process
+
+**Note**: Run `python3 02_rag_lcel/ingest.py` first to create the knowledge base used by the agent's `lookup_policy` tool.

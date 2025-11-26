@@ -4,5 +4,6 @@ langchain-core
 langchain-experimental
 langchain-ollama
 langgraph
+pydantic
 pysqlite3-binary
 sqlite-vss
