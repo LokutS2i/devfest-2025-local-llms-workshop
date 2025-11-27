@@ -5,5 +5,5 @@ langchain-experimental
 langchain-ollama
 langgraph
 pydantic
-pysqlite3-binary
-sqlite-vss
+python-dotenv
+chromadb
